@@ -1,0 +1,5 @@
+docker run --detach \
+  --publish 5432:5432
+  --name vs
+  --hostname vs
+pgvector17
