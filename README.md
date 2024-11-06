@@ -8,9 +8,17 @@
 * OS: Ubuntu 22.04 LTS
 * Anaconda 3
 * Python 3.11
-* Vector Space: Postgres, PGVector
+* Vector Space: Postgres + PGVector
 * Embedding API: OpenAI Embedding
 * LLM: ChatGPT-4
+
+### 테스트 프로그램
+* `setup/`
+* `data/`
+    * `lg-monitor.md`
+    * `questions.json`
+* `load-data.py`
+* `run-test.py` 
 
 ### 계층화한 형태로 지식 저장
 
