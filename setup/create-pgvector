@@ -1,5 +1,8 @@
 docker run --detach \
-  --publish 5432:5432
-  --name vs
-  --hostname vs
-pgvector17
+  --publish 5432:5432 \
+  --name vs \
+  --hostname vs \
+  --shm-size 128mb \
+  -v ./initdb.d:/docker-entrypoint-initdb.d \
+  -e POSTGRES_PASSWORD=vectorspace \
+pgvector/pgvector:pg17

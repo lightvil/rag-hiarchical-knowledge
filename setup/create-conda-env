@@ -1,1 +1,3 @@
 conda create --name hiarchical-knowledge python=3.12 
+conda install jupyter
+
